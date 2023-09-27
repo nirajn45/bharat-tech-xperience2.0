@@ -1,6 +1,8 @@
 import React from 'react'
 import communityBg from '../../Assets/community.png'
-import Corousel2 from '../../Components/Corousel/Corousel2'
+import chandigarh from '../../Assets/gdg chandigarh.png'
+import jhalandar from '../../Assets/cp-gdg jalandhar.png'
+import ludhiana from '../../Assets/cp-gdg ludhiana.png'
 export default function Community() {
   return (
     <>
@@ -17,8 +19,31 @@ export default function Community() {
           </div>
         </div>
       </div>
-      <div className="flex items-center mt-14">
-      <Corousel2/>
+      <div className="flex items-center  justify-center md:mt-14">
+      <section class="text-gray-600 body-font">
+  <div class="container px-5 md:py-24 mx-auto">
+    <div class="flex flex-wrap gap-10 justify-center -m-4">
+      <div class="p-4 md:w-1/4">
+        <div class="h-full  overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-contain object-center" src={chandigarh} alt="blog"/>
+       
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4">
+        <div class="h-full  overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-contain object-center" src={jhalandar} alt="blog"/>
+       
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4">
+        <div class="h-full  overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-contain object-center" src={ludhiana} alt="blog"/>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       </div>
     </div>
   

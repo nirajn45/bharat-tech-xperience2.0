@@ -1,6 +1,8 @@
 import React from 'react'
 import sponserBg from '../../Assets/sponser.png'
-import Corousel from '../../Components/Corousel/Corousel'
+import replit from "../../Assets/sponser-replit.png"
+import polygon from "../../Assets/sponser-polygon.png"
+import devfolio from "../../Assets/sponser-devfolio.png"
 export default function Sponsers() {
   return (
     <>
@@ -17,9 +19,30 @@ export default function Sponsers() {
           </div>
         </div>
       </div>
-      <div className="flex items-center mt-14">
-      <Corousel/>
+      <section class="text-gray-600 body-font">
+  <div class="container px-5 md:py-24 mx-auto">
+    <div class="flex flex-wrap gap-10 justify-center -m-4">
+      <div class="p-4 md:w-1/4">
+        <div class="h-full  overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-contain object-center" src={replit} alt="blog"/>
+       
+        </div>
       </div>
+      <div class="p-4 md:w-1/4">
+        <div class="h-full  overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-contain object-center" src={devfolio} alt="blog"/>
+       
+        </div>
+      </div>
+      <div class="p-4 md:w-1/4">
+        <div class="h-full  overflow-hidden">
+          <img class="lg:h-48 md:h-36 w-full object-contain object-center" src={polygon} alt="blog"/>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
   
 
