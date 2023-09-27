@@ -9,6 +9,7 @@ import Team from './Team/Team'
 import Contact from './Contactus/Contact'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
+import Community from './Community/Commuinty'
 
 
 
@@ -32,6 +33,9 @@ export default function Layout() {
       <Prizes />
       <Sponsers />
       <div id="stars"></div>
+      <Community/>
+      <div id="stars"></div>
+
       <Team />
       <div id="stars"></div>
       <Contact />

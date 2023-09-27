@@ -1,10 +1,9 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import devfolio from '../../Assets/sponser-devfolio.png'
-import replit from '../../Assets/sponser-polygon.png'
-import polygon from '../../Assets/sponser-replit.png'
+import chandigarh from '../../Assets/gdg chandigarh.png'
+import jhalandar from '../../Assets/cp-gdg jalandhar.png'
+import ludhiana from '../../Assets/cp-gdg ludhiana.png'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -41,9 +40,9 @@ export default function App() {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper justify-center flex  w-1/2 md:mt-12  "
       >
-        <SwiperSlide><img className="w-[400px] " src={devfolio} alt=''/></SwiperSlide>
-        <SwiperSlide><img className="w-[400px]" src={replit}alt=''/></SwiperSlide>
-        <SwiperSlide><img className="w-[400px]" src={polygon} alt=''/></SwiperSlide>
+        <SwiperSlide><img className="w-[400px] " src={chandigarh} alt=''/></SwiperSlide>
+        <SwiperSlide><img className="w-[400px]" src={ludhiana}alt=''/></SwiperSlide>
+        <SwiperSlide><img className="w-[400px]" src={jhalandar} alt=''/></SwiperSlide>
         
         <div className="autoplay-progress hidden" slot="container-end">
           <svg className='hidden' viewBox="0 0 48 48" ref={progressCircle}>

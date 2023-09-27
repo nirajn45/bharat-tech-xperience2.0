@@ -34,8 +34,7 @@ const Home = () => {
                 ~Where Innovation Meets Tradition
               </p>
               <p class="lg:w-2/3 mx-auto   leading-relaxed text-base mt-4">
-                Join the Hyperdrive Hackathon and compete online to launch the
-                next breakout startup on the Solana blockchain.
+              Empower Your Tech Dreams: Register for Bharat Tech Xperience and turn your ideas into reality. Join us on a path of limitless innovation!
               </p>
             </div>
             {/* <div class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto  md:px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">

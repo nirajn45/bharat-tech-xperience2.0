@@ -61,6 +61,9 @@
   .show_menu{
     display: block;
   }
+  .parveen-class{
+    margin-bottom: 0 !important;
+  }
 }
 .scrollbar{
   overflow-y: hidden;
@@ -70,4 +73,8 @@
   opacity: 0.7; /* Lower opacity for disabled button */
   background-color: #ccc;
   cursor: not-allowed;
+}
+
+.parveen-class{
+  margin-bottom: -300px;
 }

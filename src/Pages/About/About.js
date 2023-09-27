@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import robot from '../../Assets/robot.png';
+import logo_only from '../../Assets/logo-only.png';
 import aboutBg from '../../Assets/about-us.png';
-import robotBackGif from '../../Assets/circle-anim.gif';
+import robotBackGif from '../../Assets/circle-anim2.gif';
 
 export default function About() {
   const [activeLink, setActiveLink] = useState('what'); // Initialize with the default active link
@@ -56,7 +56,7 @@ export default function About() {
               </div>
               {activeLink === 'what' && (
                 <p className="leading-relaxed my-16 flex text-white">
-                  A 6-day virtual hackathon in Q3 2023.. Participants build an exciting MVP for autonomous agents or apps to compete for cash prizes and other incentives provided by us and our partners.
+           Bharat Tech Experience is a prestigious national-level hackathon organized in collaboration with GDGs Chandigarh, Jalandhar, and Ludhiana. This two-day  event, scheduled for offering participants the opportunity to showcase their skills in coding and problem-solving. What makes this hackathon truly exciting is the chance to compete for incredible prizes, including a grand ₹25,000  winning prize.
                 </p>
               )}
               {activeLink === 'who' && (
@@ -66,15 +66,23 @@ export default function About() {
               )}
               {activeLink === 'where' && (
                 <p className="leading-relaxed my-16 flex text-white">
-                  We are opening up this program as a virtual hackathon to ensure anyone in the world can apply. In conjunction with our sponsors, we will aim to facilitate regional working groups to provide opportunities for in-person collaboration.
-                </p>
+We're excited to host the "Bharat Tech Experience" hackathon at the prestigious Swami Vivekanand Institute of Technology (SVIET) College, near Chandigarh. The college's picturesque campus provides the perfect backdrop for this tech-filled adventure.
+<br/>
+Address:
+Swami Vivekanand Institute of Technology (SVIET) College,
+
+Village- Ramnagar Near Banur, Tehsil- Rajpura, District- Patiala                </p>
               )}
             </div>
 
-         <div></div>
+         <div>
+
+
+
+         </div>
             <img
               alt="ecommerce"
-              className="lg:w-1/2 w-full lg:h-auto opacity-30 object-cover object-center rounded"
+              // className="lg:w-1/2 w-full lg:h-auto opacity-60 object-cover object-center rounded"
               src={robotBackGif}
             />
           </div>

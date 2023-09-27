@@ -18,7 +18,7 @@ export default function Contact() {
         id="contact"
         class="text-white overflow-hidden flex flex-wrap body-font relative"
       >
-        <div class=" w-1/2 inset-0">
+        <div class="  w-1/2 inset-0">
           <div>
             <CanvasContainer>
               <Canvas>
@@ -30,10 +30,10 @@ export default function Contact() {
           </div>
         </div>
 
-        <section class="text-white  ml-0 h-1/2 w-2/4 body-font relative">
+        <section class="text-white md:-mt-0 -mt-96  ml-0 h-1/2 w-full md:w-2/4 body-font relative">
           <div class="container  ">
-            <div className="bg-black/20 py-5 border-l-2 p-5 md:p-0">
-              <div class="flex flex-col text-center w-full mb-12">
+            <div className="bg-black/20  md:border-l-2 p-5 md:p-0">
+              <div class="flex flex-col text-center pt-5 w-full mb-12">
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
                   Still,have some doubt?
                 </p>
@@ -53,7 +53,7 @@ export default function Contact() {
                     <div class="relative">
                     <a
       href={`whatsapp://send?phone=${phoneNumber}`}
-      className="flex items-center  hover:bg-green-600 border-2 border-white text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
+      className="flex items-center mb-6 hover:bg-green-600 border-2 border-white text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
     >
       <svg
         width="32"
@@ -66,7 +66,7 @@ export default function Contact() {
       >
         {/* SVG icon code */}
       </svg>
-      <span>Ask on whatsapp</span>
+      <span >Ask on whatsapp</span>
     </a>
                     </div>
                   </div>
@@ -75,9 +75,9 @@ export default function Contact() {
             </div>
           </div>
         </section>
-        <section class="text-white h-1/2 -mt-96 w-2/4 body-font relative">
-          <div class="container    ">
-            <div className="bg-black/20 py-5  border-r-2">
+        <section class="text-white h-1/2  md:-mt-96 w-full md:w-2/4 body-font relative">
+          <div class="container my-auto   ">
+            <div className="bg-black/20 py-5  md:border-r-2">
               <div class="flex flex-col text-center w-full  mb-12">
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
                 All set??

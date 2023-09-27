@@ -5,7 +5,7 @@ export default function Prizes() {
   return (
     <>
       {" "}
-      <section id="prizes" class="text-gray-600 mb-40 md:h-screen body-font">
+      <section id="prizes" class="text-gray-600 mb-40 xl:h-screen body-font">
         
         <div>
           <div className="flex justify-start mt-10 overflow-hidden">

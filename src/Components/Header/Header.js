@@ -93,7 +93,7 @@ const Header = () => {
             <div className="flex items-center gap-4">
              
               <Link to='/register'>
-                <button className='bg-gray-500  py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px] '>Register</button>
+                <button className='bg-gray-500 -mt-2 py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px] '>Register</button>
               </Link>
               <span className='md:hidden' onClick={toggleMenu}>
                 <BiMenu className='w-6 h-6 text-white cursor-pointer' />
