@@ -40,8 +40,8 @@ export default function Team() {
     }
   ];
   
-  return (
-    <div id="team">
+  return (    
+    <div id="team ">
       <div className="flex justify-start mt-10 overflow-hidden">
         <div className="container">
           <div className="w-3/4">
