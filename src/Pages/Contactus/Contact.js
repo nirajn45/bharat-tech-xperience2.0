@@ -47,7 +47,7 @@ export default function Contact() {
                     <div class="relative">Email : gdsc@sviet.ac</div>
                   </div>
                   <div class="p-2 w-full  flex justify-center">
-                    <div class="relative">Phone No. : 9654024881</div>
+                    <div class="relative">Phone No. : 6204991247</div>
                   </div>
                   <div class="p-2 mt-5 w-full  flex justify-center">
                     <div class="relative">

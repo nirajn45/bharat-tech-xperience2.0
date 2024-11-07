@@ -1,39 +1,39 @@
 import React from "react";
 import teamBg from "../../Assets/team.png";
-import memImg from "../../Assets/mem.jpg"
-import memImg3 from "../../Assets/naveen.jpg"
-import memImg4 from "../../Assets/ronit.png"
-import memImg5 from "../../Assets/mantasha.jpg"
-import memImg2 from "../../Assets/parveen.jpg"
+import memImg from "../../Assets/sujal.jpg"
+import memImg3 from "../../Assets/amandeep.jpg"
+import memImg4 from "../../Assets/abhishek2.jpg"
+import memImg5 from "../../Assets/aryan.jpg"
+import memImg2 from "../../Assets/niraj.jpg"
 export default function Team() {
   const team = [
     {
       imgsrc: memImg,
-      Name: "Priyanshi",
+      Name: "Sujal",
       post: "Web-Lead",
       bio: " I am a passionate student, specializing in graphic design and MERN Stack development.",
     },
     {
       imgsrc: memImg2,
-      Name: "Parveen",
-      post: "GDSC-Lead",
+      Name: "Niraj",
+      post: "ISTE Tech-Lead",
       bio: "  a tech enthusiast pursuing Computer Science & Engineering, specializes in full-stack web development using Mern Stack. An avid open-source contributor and video editor too.A Gdsc Lead and founder of gdsc sviet community ",
     },
     {
       imgsrc: memImg3,
-      Name: "Naveen",
+      Name: "Amandeep",
       post: "Tech-Lead",
       bio: " a passionate tech enthusiast and GDSC-SVIET Tech Lead, specializes in MERN Stack web development, open-source contributor with a deep passion for innovative development",
     },
     {
       imgsrc: memImg4,
-      Name: "Ronit",
-      post: "Web-Lead",
+      Name: "Abhishek",
+      post: "GDSC Web-Lead",
       bio: " I am a passionate student, specializing in graphic design and MERN Stack development.",
     },
     {
       imgsrc: memImg5,
-      Name: "Mantasha",
+      Name: "Aryan",
       post: "Event and Branding lead ",
       bio: "always brimming with energy and excitement, eager to explore new possibilities and take on challenges. She is currently working as a full stack developer and graphic designer. "
    
@@ -79,7 +79,7 @@ export default function Team() {
               >
                 {team.map((member, index) => {
                   return (
-<div className={`group relative items-center mb-8 justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow ${member.Name === "Parveen" ? "parveen-class" : ""}`}>
+<div className={`group relative items-center mb-8 justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow ${member.Name === "Niraj" ? "parveen-class" : ""}`}>
                     <div className="h-70 w-60">
                       <img className="h-[350px]  w-full object-cover rounded-lg group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500" src={member.imgsrc} alt="" />
                     </div>

@@ -10,6 +10,7 @@ import Contact from './Contactus/Contact'
 import Footer from '../Components/Footer/Footer'
 import Header from '../Components/Header/Header'
 import Community from './Community/Commuinty'
+// import Gallery from './Gallery/Gallery'
 
 
 
@@ -39,6 +40,8 @@ export default function Layout() {
       <Team />
       <div id="stars"></div>
       <Contact />
+      {/* <div id="stars"></div>
+      <Gallery/> */}
       <Footer />
       <div id="stars"></div>
     </>

@@ -56,7 +56,7 @@ export default function About() {
               </div>
               {activeLink === 'what' && (
                 <p className="leading-relaxed my-16 flex text-white">
-           Bharat Tech Experience is a prestigious national-level hackathon organized in collaboration with GDGs Chandigarh, Jalandhar, and Ludhiana. This two-day  event, scheduled for offering participants the opportunity to showcase their skills in coding and problem-solving. What makes this hackathon truly exciting is the chance to compete for incredible prizes, including a grand ₹25,000  winning prize.
+           Bharat Tech Experience is a prestigious national-level hackathon organized in collaboration with ISTE SVIET, and GDGs Chandigarh. This two-day event offers participants the opportunity to showcase their skills in coding and problem-solving on a national platform. What makes this hackathon truly exciting is the chance to compete for amazing prizes, including a grand winning prize of ₹25,000.
                 </p>
               )}
               {activeLink === 'who' && (

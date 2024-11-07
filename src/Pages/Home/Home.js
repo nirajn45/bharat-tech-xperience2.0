@@ -29,7 +29,11 @@ const Home = () => {
             <div class="flex flex-col  md:text-center w-full mb-8">
             <h1 class="first-text sm:text-[40px] text-[40px] lg:text-[90px] uppercase font-medium title-font mb-2 text-white">
                 Bharat-Tech-Xperience
+                <span className="ml-4">
+                2.0
+              </span>
               </h1>
+              
               <p class="lg:w-2/3 mx-auto   leading-relaxed text-base">
                 ~Where Innovation Meets Tradition
               </p>

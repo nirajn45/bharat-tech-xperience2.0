@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { BiMenu } from 'react-icons/bi';
-import logo from "../../Assets/logo.png"
+import logo from "../../Assets/textures/2.0logo.png"
 import "../../App.css"
 
 const navLinks = [
@@ -28,6 +28,10 @@ const navLinks = [
   {
     path: '#contact', // Replace with the actual path to your Contact Us section
     display: 'Contact us'
+  },
+  {
+    path: '#gallery', // Replace with the actual path to your Contact Us section
+    display: 'Gallery'
   }
 ]
 
@@ -93,7 +97,7 @@ const Header = () => {
             <div className="flex items-center gap-4">
              
               <Link to='/register'>
-                <button className='bg-gray-500 -mt-2 py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px] '>Register</button>
+                <button className='bg-gray-500 -mt-2 py-2 px-6 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px] mr-16'>Register</button>
               </Link>
               <span className='md:hidden' onClick={toggleMenu}>
                 <BiMenu className='w-6 h-6 text-white cursor-pointer' />
