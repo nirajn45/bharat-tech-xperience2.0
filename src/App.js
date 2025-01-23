@@ -1,5 +1,6 @@
 
 import "./App.css";
+import Button from "./Button"
 
 import "./Pages/Home/style.css";
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <Routers/>
+    <Button/>
    
     </>
   );

@@ -11,7 +11,7 @@ const CanvasContainer = styled.div`
   overflow-x: hidden;
 `;
 export default function Contact() {
-  const phoneNumber = 9649370602;
+  const phoneNumber = +916204991247;
   return (
     <>
       <section
@@ -44,10 +44,10 @@ export default function Contact() {
               <div class="w-full flex justify-center mx-auto">
                 <div class="flex flex-wrap -m-2">
                   <div class="p-2 w-full flex justify-center">
-                    <div class="relative">Email : gdsc@sviet.ac</div>
+                    <div class="relative">Email : team.theuniques@sviet.ac.in</div>
                   </div>
                   <div class="p-2 w-full  flex justify-center">
-                    <div class="relative">Phone No. : 6204991247</div>
+                    <div class="relative">Phone No. : +91 6204991247</div>
                   </div>
                   <div class="p-2 mt-5 w-full  flex justify-center">
                     <div class="relative">
@@ -89,7 +89,7 @@ export default function Contact() {
              <div className="flex justify-center">
 
              <Link to='/register'>
-               <button className='bg-gray-500  py-2 px-6 hover:bg-green-500 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px] '>Register Now...</button>
+               <button className='bg-gray-500  py-2 px-6 hover:bg-green-500 text-white font-[600] h-[44px] flex items-center justify-center rounded-[50px] cursor-pointer'>Register Now...</button>
              </Link>
              </div>
             </div>

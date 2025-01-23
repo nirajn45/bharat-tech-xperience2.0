@@ -36,7 +36,7 @@ export default function Timeline() {
           </div>
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">09:30 AM</h2>
-            <p class="leading-relaxed text-gray-300">Registration opens – provide light breakfast for those who are hungry.</p>
+            <p class="leading-relaxed text-gray-300">Registration open</p>
           </div>
         </div>
         <div class="flex relative pb-12">
@@ -94,7 +94,7 @@ export default function Timeline() {
           </div>
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">01:00 PM</h2>
-            <p class="leading-relaxed text-gray-300">Lunch will be provided.</p>
+            <p class="leading-relaxed text-gray-300">Lunch time</p>
           </div>
         </div>
         <div class="flex relative pb-12">
@@ -135,7 +135,7 @@ export default function Timeline() {
           </div>
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">9:00 PM</h2>
-            <p class="leading-relaxed text-gray-300">Dinner </p>
+            <p class="leading-relaxed text-gray-300">Dinner time</p>
           </div>
         </div>
       </div> 
@@ -223,7 +223,7 @@ export default function Timeline() {
           </div>
           <div class="flex-grow pl-4">
             <h2 class="font-medium title-font text-sm text-white mb-1 tracking-wider">01:00 PM</h2>
-            <p class="leading-relaxed text-gray-300">Lunch is provided.</p>
+            <p class="leading-relaxed text-gray-300">Lunch time</p>
           </div>
         </div>
         <div class="flex relative pb-12">

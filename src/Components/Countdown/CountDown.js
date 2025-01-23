@@ -11,7 +11,7 @@ const CountDown = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("Nov 16, 2024 10:00:00").getTime();
+    const countdownDate = new Date("Feb 08, 2025 09:00:00").getTime();
     interval.current = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -55,19 +55,19 @@ const CountDown = () => {
       <div class="flex flex-wrap -m-4 text-center">
     
         <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl text-green-800">{timerDays}</h2>
+          <h2 class="title-font font-black sm:text-4xl text-3xl text-green-800">{timerDays}</h2>
           <p class="leading-relaxed ">Days</p>
         </div>
         <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl   text-white">{timerHours}</h2>
+          <h2 class="title-font font-black sm:text-4xl text-3xl   text-white">{timerHours}</h2>
           <p class="leading-relaxed">Hours</p>
         </div>
         <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl   text-orange-600">{timerMinutes}</h2>
+          <h2 class="title-font font-black sm:text-4xl text-3xl   text-orange-600">{timerMinutes}</h2>
           <p class="leading-relaxed">Minutes</p>
         </div>
         <div class="p-4 sm:w-1/4 w-1/2">
-          <h2 class="title-font font-medium sm:text-4xl text-3xl   text-white">{timerSeconds}</h2>
+          <h2 class="title-font font-black sm:text-4xl text-3xl   text-white">{timerSeconds}</h2>
           <p class="leading-relaxed">Seconds</p>
         </div>
       </div>

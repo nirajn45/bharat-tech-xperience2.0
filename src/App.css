@@ -78,3 +78,8 @@
 .parveen-class{
   margin-bottom: -300px;
 }
+
+.adminActions {
+  position: fixed;
+  bottom: 35px; right: 35px;
+}

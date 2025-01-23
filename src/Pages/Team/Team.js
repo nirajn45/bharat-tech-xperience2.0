@@ -2,43 +2,43 @@ import React from "react";
 import teamBg from "../../Assets/team.png";
 import memImg from "../../Assets/sujal.jpg"
 import memImg3 from "../../Assets/amandeep.jpg"
-import memImg4 from "../../Assets/abhishek2.jpg"
-import memImg5 from "../../Assets/aryan.jpg"
+import memImg4 from "../../Assets/abhishek3.jpg"
+import memImg5 from "../../Assets/aryan2.jpg"
 import memImg2 from "../../Assets/niraj.jpg"
 export default function Team() {
   const team = [
     {
       imgsrc: memImg,
       Name: "Sujal",
-      post: "Web-Lead",
-      bio: " I am a passionate student, specializing in graphic design and MERN Stack development.",
+      post: "GDSC Tech Lead",
+      bio: "GDSC Tech Lead skilled in graphic design and MERN stack development, passionate about driving innovative tech projects.",
     },
     {
       imgsrc: memImg2,
       Name: "Niraj",
-      post: "ISTE Tech-Lead",
-      bio: "  a tech enthusiast pursuing Computer Science & Engineering, specializes in full-stack web development using Mern Stack. An avid open-source contributor and video editor too.A Gdsc Lead and founder of gdsc sviet community ",
+      post: "ISTE Tech Lead",
+      bio: "ISTE Tech Lead and Computer Science enthusiast specializing in full-stack MERN development, active open-source contributor.",
     },
     {
       imgsrc: memImg3,
       Name: "Amandeep",
-      post: "Tech-Lead",
-      bio: " a passionate tech enthusiast and GDSC-SVIET Tech Lead, specializes in MERN Stack web development, open-source contributor with a deep passion for innovative development",
+      post: "Core Member (Bharat-tech-xperience)",
+      bio: "Dedicated Core Member and GDSC-SVIET Tech Lead with a focus on MERN stack development and a commitment to open-source innovation.",
     },
     {
       imgsrc: memImg4,
-      Name: "Abhishek",
-      post: "GDSC Web-Lead",
-      bio: " I am a passionate student, specializing in graphic design and MERN Stack development.",
+      Name: "Abhishek ",
+      post: "Core Member (Bharat-tech-xperience)",
+      bio: "Core Member with strong expertise in graphic design and MERN stack development, contributing actively to GDSC initiatives.",
     },
     {
       imgsrc: memImg5,
       Name: "Aryan",
-      post: "Event and Branding lead ",
-      bio: "always brimming with energy and excitement, eager to explore new possibilities and take on challenges. She is currently working as a full stack developer and graphic designer. "
-   
-    }
+      post: "GDSC Broadcast & Operations Lead",
+      bio: "Energetic and proactive GDSC Broadcast & Operations Lead, skilled in full-stack development and graphic design.",
+    },
   ];
+  
   
   return (
     <div id="team">
