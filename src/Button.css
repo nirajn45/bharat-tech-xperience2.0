@@ -4,10 +4,12 @@
   }
   
     .adminButton {
-      height: 150px;
-      width: 150px;
-      background-color: #fd9933;
+      height: 100px;
+      width: 100px;
+      background-color: transparent;
       border-radius: 50%;
+      border-color: #fff;
+      border-width: 2px;
       display: block;
       color: #fff;
       text-align: center;

@@ -56,7 +56,7 @@
 //   )
 // }
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+
 import New from "../Components/New";
 import CountDown from "../Components/Countdown/CountDown";
 import About from "./About/About";
@@ -94,33 +94,7 @@ export default function Layout() {
 
   return (
     <>
-      {showAnimation ? (
-        <div className="flex items-center justify-center h-screen bg-black/20">
-          {count > 0 ? (
-            <motion.div
-              className="text-white text-9xl font-bold"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-            >
-              {count}
-            </motion.div>
-          ) : (
-            <motion.div
-              className="flex items-center justify-center w-32 h-32 bg-black/20 rounded-full"
-              initial={{ scale: 0 }}
-              animate={{ scale: 20 }}
-              transition={{ duration: 2 }}
-            >
-              <img
-                src="https://bharat-tech-xperience.theuniques.in/static/media/2.0logo.eb68755e126d8cfbb6ab.png" // Replace with your logo's path
-                alt="Logo"
-                className=""
-              />
-            </motion.div>
-          )}
-        </div>
-      ) : (
+      
         <>
           <Header />
           <New />
@@ -152,7 +126,7 @@ export default function Layout() {
           <Footer />
           <div id="stars"></div>
         </>
-      )}
+    
     </>
   );
 }

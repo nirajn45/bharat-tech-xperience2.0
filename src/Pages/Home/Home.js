@@ -111,7 +111,7 @@ const Home = () => {
                   </a>
                 </div>
               </div>
-              <img className="hidden md:block my-5" src={line2} alt="" />
+              <img className="hidden md:block my-5 " src={line2} alt="" />
             </div>
             <div className="flex justify-between">
               <img className="w-10 h-10 hidden md:block" src={img3} alt="" />
